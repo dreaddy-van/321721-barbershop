@@ -1,3 +1,110 @@
+html,
+body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  }
+
+/*Главное меню*/
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+/*Главная - содержание*/
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+/*Футер*/
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+/*Типографика*/
 
 .main-title {
   font-family: "Pt sans narrow";
@@ -9,13 +116,13 @@
 }
 
 .filters-title, .catalogitem-content-title {
-    font-family: "Pt sans narrow";
-    font-size: 24px;
-    line-height: 120%;
-    font-weight: "bold";
-    color: black;
-    text-transform: uppercase;
-  }
+  font-family: "Pt sans narrow";
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: "bold";
+  color: black;
+  text-transform: uppercase;
+}
 
 body {
   font-family: "Pt sans narrow";
@@ -23,4 +130,72 @@ body {
   line-height: 120%;
   font-weight: "bold";
   color: black;
+}
+
+/*Каталог - содержание*/
+.
+.breadcrumbs {
+  margin-top:25px;
+  margin-bottom: 55px;
+}
+
+.filters {
+  width: 220px;
+  margin-right: 20px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.goods-cards {
+  width: 700px;
+  float: right;
+}
+
+.goods {
+  width: 220px;
+  min-height: 680px;
+  min-height: 285px;
+  float: left;
+  margin-right: 20px;
+}
+
+.goods:nth-child(3n+3) {
+  float: right;
+  margin-right: 0px;
+}
+
+.paging-nav {
+  float: left;
+}
+
+/*Страница товара - содержание*/
+
+.photo {
+  width: 460px;
+  min-height: 670px;
+  margin-right: 90px;
+  float: left;
+}
+
+.main-photo {
+  margin-bottom: 20px;
+}
+
+.nav-photo {
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+}
+.nav-photo:nth-child(3n+3) {
+  float: right;
+  margin-right: 0px;
+}
+
+.text {
+  width: 390px;
+  min-heigt: 670px;
+  float: right;
+  margin-right: 0px;
+  padding-top: 25px;
+  text-transform: uppercase;
 }
